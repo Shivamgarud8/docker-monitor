@@ -346,6 +346,10 @@
       border-color: #a855f7;
     }
 
+    .footer-link.linkedin {
+      border-color: #0077b5;
+    }
+
     .footer-link:hover {
       transform: translateY(-5px);
     }
@@ -358,6 +362,16 @@
     .footer-link.medium:hover {
       background: rgba(168, 85, 247, 0.2);
       box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
+    }
+
+    .footer-link.linkedin:hover {
+      background: rgba(0, 119, 181, 0.2);
+      box-shadow: 0 10px 30px rgba(0, 119, 181, 0.4);
+    }
+
+    h2 a:hover {
+      color: #a855f7 !important;
+      border-bottom-color: #a855f7 !important;
     }
 
     /* Tabs */
@@ -630,7 +644,9 @@
 
   <div class="container">
     <h1>🐋 DOCKER MONITOR</h1>
-    <h2 style="text-align: center; color: #888; font-size: 1.2rem; margin-bottom: 3rem; animation: fadeIn 1s ease;">Made by Shivam Garud</h2>
+    <h2 style="text-align: center; color: #888; font-size: 1.2rem; margin-bottom: 3rem; animation: fadeIn 1s ease;">
+      Made by <a href="https://www.linkedin.com/in/shivam-garud/" target="_blank" style="color: #00fff2; text-decoration: none; transition: all 0.3s ease; border-bottom: 2px solid transparent;">Shivam Garud</a>
+    </h2>
 
     <!-- Stats Overview -->
     <div class="stats-container" id="stats">
@@ -673,6 +689,9 @@
     <div class="footer">
       <div class="footer-title">Connect with me</div>
       <div class="footer-links">
+        <a href="https://www.linkedin.com/in/shivam-garud/" target="_blank" class="footer-link linkedin">
+          <span>💼</span> LinkedIn Profile
+        </a>
         <a href="https://github.com/Shivamgarud8/docker-monitor.git" target="_blank" class="footer-link github">
           <span>⭐</span> GitHub Repository
         </a>
